@@ -30,9 +30,9 @@ class AttachmentEmbedder extends Embedder
     {
         $filePath = str_replace(url('/'), public_path('/'), $url);
 
-        if (!file_exists($filePath)) {
-            return $url;
-        }
+        // if (!file_exists($filePath)) {
+        //     return $url;
+        // }
 
         return $this->embed(
             Swift_Image::fromPath($filePath)
