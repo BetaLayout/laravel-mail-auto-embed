@@ -1,8 +1,8 @@
 <?php
 
-namespace Eduardokum\LaravelMailAutoEmbed\Tests\fixtures;
+namespace BetaLayout\LaravelMailAutoEmbed\Tests\fixtures;
 
-use Eduardokum\LaravelMailAutoEmbed\Models\EmbeddableEntity;
+use BetaLayout\LaravelMailAutoEmbed\Models\EmbeddableEntity;
 
 class PictureEntity implements EmbeddableEntity
 {

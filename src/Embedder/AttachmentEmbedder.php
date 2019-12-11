@@ -1,11 +1,11 @@
 <?php
 
-namespace Eduardokum\LaravelMailAutoEmbed\Embedder;
+namespace BetaLayout\LaravelMailAutoEmbed\Embedder;
 
 use Swift_Image;
 use Swift_Message;
 use Swift_EmbeddedFile;
-use Eduardokum\LaravelMailAutoEmbed\Models\EmbeddableEntity;
+use BetaLayout\LaravelMailAutoEmbed\Models\EmbeddableEntity;
 
 class AttachmentEmbedder extends Embedder
 {

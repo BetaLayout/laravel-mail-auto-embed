@@ -1,10 +1,10 @@
 <?php
 
-namespace Eduardokum\LaravelMailAutoEmbed\Tests\Embedder;
+namespace BetaLayout\LaravelMailAutoEmbed\Tests\Embedder;
 
-use Eduardokum\LaravelMailAutoEmbed\Embedder\Base64Embedder;
-use Eduardokum\LaravelMailAutoEmbed\Tests\fixtures\PictureEntity;
-use Eduardokum\LaravelMailAutoEmbed\Tests\TestCase;
+use BetaLayout\LaravelMailAutoEmbed\Embedder\Base64Embedder;
+use BetaLayout\LaravelMailAutoEmbed\Tests\fixtures\PictureEntity;
+use BetaLayout\LaravelMailAutoEmbed\Tests\TestCase;
 
 class Base64EmbedderTest extends TestCase
 {

@@ -1,7 +1,7 @@
-[![Packagist](https://img.shields.io/packagist/v/eduardokum/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/eduardokum/laravel-mail-auto-embed)
-[![Packagist](https://img.shields.io/packagist/dt/eduardokum/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/eduardokum/laravel-mail-auto-embed)
-[![Packagist](https://img.shields.io/packagist/l/eduardokum/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/eduardokum/laravel-mail-auto-embed)
-[![GitHub forks](https://img.shields.io/github/forks/eduardokum/laravel-mail-auto-embed.svg?style=social&label=Fork)](https://github.com/eduardokum/laravel-mail-auto-embed)
+[![Packagist](https://img.shields.io/packagist/v/BetaLayout/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/BetaLayout/laravel-mail-auto-embed)
+[![Packagist](https://img.shields.io/packagist/dt/BetaLayout/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/BetaLayout/laravel-mail-auto-embed)
+[![Packagist](https://img.shields.io/packagist/l/BetaLayout/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/BetaLayout/laravel-mail-auto-embed)
+[![GitHub forks](https://img.shields.io/github/forks/BetaLayout/laravel-mail-auto-embed.svg?style=social&label=Fork)](https://github.com/BetaLayout/laravel-mail-auto-embed)
 
 # Laravel Mail Auto Embed
 
@@ -10,7 +10,7 @@
 
 You can install the package via composer:
 ```bash
-$ composer require eduardokum/laravel-mail-auto-embed
+$ composer require BetaLayout/laravel-mail-auto-embed
 ```
 
 This package uses Laravel 5.5 Package Auto-Discovery.<br>
@@ -19,7 +19,7 @@ For previous versions of Laravel, you need to add the following Service Provider
 ```php
 $providers = [
     ...
-    \Eduardokum\LaravelMailAutoEmbed\ServiceProvider::class,
+    \BetaLayout\LaravelMailAutoEmbed\ServiceProvider::class,
     ...
  ];
 ```
@@ -86,7 +86,7 @@ For local resources that are not available publicly, use `file://` urls, example
 The defaults are set in `config/mail-auto-embed.php`. You can copy this file to your own config directory to modify the values using this command:
 
 ```shell
-php artisan vendor:publish --provider="Eduardokum\LaravelMailAutoEmbed\ServiceProvider"
+php artisan vendor:publish --provider="BetaLayout\LaravelMailAutoEmbed\ServiceProvider"
 ```
 
 ### Explicit embedding configuration
@@ -142,7 +142,7 @@ In that case, make the entities you want to embed implement the `EmbeddableEntit
 ```php
 namespace App\Models;
 
-use Eduardokum\LaravelMailAutoEmbed\Models\EmbeddableEntity;
+use BetaLayout\LaravelMailAutoEmbed\Models\EmbeddableEntity;
 use Illuminate\Database\Eloquent\Model;
 
 class Picture extends Model implements EmbeddableEntity

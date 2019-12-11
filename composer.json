@@ -1,16 +1,21 @@
 {
-    "name": "eduardokum/laravel-mail-auto-embed",
+    "name": "betalayout/laravel-mail-auto-embed",
     "description": "Library for embed images in emails automatically",
     "keywords": [
-        "eduardokum",
+        "BetaLayout",
+        "betalayout",
         "laravel-mail-auto-embed"
     ],
-    "homepage": "https://github.com/eduardokum/laravel-mail-auto-embed",
+    "homepage": "https://github.com/BetaLayout/laravel-mail-auto-embed",
     "license": "MIT",
     "authors": [
         {
             "name": "Eduardo Gusmão",
             "email": "eduguscontra3@hotmail.com"
+        },
+        {
+            "name": "Eoghan Calnan",
+            "email": "eoghan.calnan@beta-layout.com"
         }
     ],
     "require": {
@@ -25,18 +30,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Eduardokum\\LaravelMailAutoEmbed\\": "src"
+            "BetaLayout\\LaravelMailAutoEmbed\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Eduardokum\\LaravelMailAutoEmbed\\Tests\\": "tests"
+            "BetaLayout\\LaravelMailAutoEmbed\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Eduardokum\\LaravelMailAutoEmbed\\ServiceProvider"
+                "BetaLayout\\LaravelMailAutoEmbed\\ServiceProvider"
             ]
         }
     }

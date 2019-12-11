@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelMailAutoEmbed\Embedder;
+namespace BetaLayout\LaravelMailAutoEmbed\Embedder;
 
 interface UrlEmbedder
 {

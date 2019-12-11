@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelMailAutoEmbed\Models;
+namespace BetaLayout\LaravelMailAutoEmbed\Models;
 
 interface EmbeddableEntity
 {

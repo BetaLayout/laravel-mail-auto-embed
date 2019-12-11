@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelMailAutoEmbed\Tests\fixtures;
+namespace BetaLayout\LaravelMailAutoEmbed\Tests\fixtures;
 
 class WrongEntity
 {

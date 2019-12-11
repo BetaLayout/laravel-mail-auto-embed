@@ -1,11 +1,11 @@
 <?php
 
-namespace Eduardokum\LaravelMailAutoEmbed\Listeners;
+namespace BetaLayout\LaravelMailAutoEmbed\Listeners;
 
-use Eduardokum\LaravelMailAutoEmbed\Embedder\AttachmentEmbedder;
-use Eduardokum\LaravelMailAutoEmbed\Embedder\Base64Embedder;
-use Eduardokum\LaravelMailAutoEmbed\Embedder\Embedder;
-use Eduardokum\LaravelMailAutoEmbed\Models\EmbeddableEntity;
+use BetaLayout\LaravelMailAutoEmbed\Embedder\AttachmentEmbedder;
+use BetaLayout\LaravelMailAutoEmbed\Embedder\Base64Embedder;
+use BetaLayout\LaravelMailAutoEmbed\Embedder\Embedder;
+use BetaLayout\LaravelMailAutoEmbed\Models\EmbeddableEntity;
 use ReflectionClass;
 use Swift_Events_SendEvent;
 use Swift_Events_SendListener;
